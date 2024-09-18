@@ -4,6 +4,8 @@ data
 /dist
 /node_modules
 
+.notes
+
 # Logs
 logs
 *.log

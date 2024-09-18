@@ -15,7 +15,7 @@ export function Welcome() {
         </Text>
       </Title>
       <Text ta="center" size="lg" maw={580} mx="auto" mt="xl">
-        Welcome to something new and interesting.
+        Welcome to our documentation app.
       </Text>
       <ThemeToggle />
     </Stack>

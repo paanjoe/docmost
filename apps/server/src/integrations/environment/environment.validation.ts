@@ -11,8 +11,8 @@ import { plainToInstance } from 'class-transformer';
 export class EnvironmentVariables {
   @IsNotEmpty()
   @IsUrl(
-    { protocols: ['postgres', 'postgresql'], require_tld: false },
-    { message: 'DATABASE_URL must be a valid postgres connection string' },
+     { protocols: ['postgres', 'postgresql'], require_tld: false },
+     { message: 'DATABASE_URL must be a valid postgres connection string' },
   )
   DATABASE_URL: string;
 
